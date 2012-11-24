@@ -1,0 +1,63 @@
+table {
+    color: #f5f5f5;
+    width: 100%;
+    table-layout: auto;
+    white-space: nowrap;
+
+    border-collapse:separate;
+    border:solid black 3px;
+    border-radius:6px;
+    -moz-border-radius:6px;
+}
+
+table thead {
+    background-color: #fff;
+}
+
+th, td {
+    text-align: center;
+    padding: 5px;
+}
+
+.specialty, .market {
+    width: 15px;
+    height: 15px;
+}
+.individual_order, .player_form {
+    width: 20px;
+    height: 20px;
+}
+
+.positive, .negative, .important_skill {
+    border-collapse:separate;
+    border:solid 3px;
+    border-radius:6px;
+    -moz-border-radius:6px;
+
+    padding: 0.7em;
+}
+.positive {
+    border-color: #156100;
+    background-color: #156100;
+}
+
+.negative {
+    border-color: #F43000;
+    background-color: #F43000;
+}
+
+.normal_skill {
+
+}
+
+.important_skill {
+    font-weight: bold;
+    opacity:0.5;
+    background-color: black;
+    border-color: black;
+
+}
+
+select {
+    width: 100px;
+}

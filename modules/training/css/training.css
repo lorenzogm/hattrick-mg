@@ -1,0 +1,63 @@
+#table-training {
+    width: 100%;
+    table-layout: auto;
+
+    border-collapse:separate;
+    border:solid black 3px;
+    border-radius:6px;
+    -moz-border-radius:6px;
+}
+
+#table-training td:not(:first-child), #table-training td:not(:first-child) {
+    white-space: nowrap;
+}
+
+#table-training th, #table-training td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#seasons a {
+    color: #EBEBEB;
+    text-decoration: none;
+}
+
+#seasons a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+#seasons {
+    font-size: 18px;
+    margin: 10px;
+}
+#seasons li {
+    display: inline;
+}
+
+.seasons-selected a {
+    background-color: grey;
+    border:solid black 2px;
+    border-radius:6px;
+    -moz-border-radius:6px;
+}
+
+.select-training {
+    width: 50px;
+}
+
+.input-training {
+    width: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.prediction {
+    width: 20px;
+    height: 20px;
+}
